@@ -1,10 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-@app.route("/")
-def hello_world():
-    return "<p>Hello World!</>"
-def print_ascii_art():
-    print('''
+print('''
     *******************************************************************************
               |                   |                  |                     |
      _________|________________.=""_;=.______________|_____________________|_______
